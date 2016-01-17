@@ -1,4 +1,4 @@
 test:
-  post:
+  override:
     - mvn clean verify
     - mvn -Pdist
