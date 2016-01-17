@@ -2,6 +2,10 @@ machine:
   java:
     version: oraclejdk8
 
+general:
+  artifacts:
+    - target/
+
 dependencies:
   override:
     - mvn clean verify
