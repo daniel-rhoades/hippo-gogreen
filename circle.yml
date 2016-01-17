@@ -1,4 +1,6 @@
-test:
+dependencies:
   override:
     - mvn clean verify
+test:
+  override:
     - mvn -Pdist
