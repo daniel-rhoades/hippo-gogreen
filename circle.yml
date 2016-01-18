@@ -12,3 +12,4 @@ dependencies:
 test:
   override:
     - mvn -Pdist
+    - mvn -Pseparate-dist
